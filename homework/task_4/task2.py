@@ -6,6 +6,7 @@ def flatten_and_sort(array):
     result_list = sorted(new_list)
     return result_list
 
+
 data = [
     [[3, 2, 1], [4, 6, 5], [], [9, 7, 8]],
     [[], []],
