@@ -2,7 +2,7 @@ def letter_stat(our_str):
     """
     The function counts the number of occurrences of a letter in a string
     :param our_str: String with letters
-    :return: A dictionary where the key is a letter and the value is the number of occurrences of the given letter in the string
+    :return letters_dict: A dictionary where the key is a letter and the value is the number of occurrences of the given letter in the string
     """
     letters_dict = {}
     for letter in our_str:
