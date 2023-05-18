@@ -1,4 +1,9 @@
 def scrabble(word):
+    """
+    Function to count the number of points received per word
+    :param word: Line with word
+    :return points: Number of points per word
+    """
     letter = dict([('авеёинорст', 1), ('дклмпу', 2), ('бгья', 3), ('йы', 4),
                    ('жзхцч', 5), ('фшэю', 8), ('щ', 10), ('ъ', 15)])
     list_points = [key for i in word for value, key in letter.items() if i in value]
