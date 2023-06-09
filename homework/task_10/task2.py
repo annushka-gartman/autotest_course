@@ -35,5 +35,6 @@ def test_negative_number():
     assert all_division(*TEST_DATA[3]) == -1
 
 
+@pytest.mark.kiska
 def test_fractional_number():
     assert all_division(*TEST_DATA[4]) == 20
